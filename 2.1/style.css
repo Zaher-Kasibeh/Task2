@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.page{
+    width: 80%;
+    margin: auto auto;
+}
+
+.landing {
+    background-color: #bed8fb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    gap: 25px;
+    
+}
+.rocket-solid{
+    width: 30px;
+    height: 30px;
+    margin: -25px auto  ;
+}
+.profile-img{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin:10px auto;
+    border: 2px rgba(48, 140, 198, 0.862) solid;
+    border-radius:  50%;
+}
+h1{
+    display: block;
+    text-align: center;  
+}
+.sp{
+    font-size: larger;
+    font-weight: bold;
+}
+.landing p{
+    text-align: center;
+}
+
+.contact-me,.follow-me,.experience ,.Education,.Programming ,.Interests{
+    margin-top: 10px;
+    padding: 0 15px;
+    border: 2px rgba(0, 0, 0, 0.213) solid;
+}
+
+.info {
+    gap: 10px;
+    margin: auto auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.phone , .location ,.site , .email{
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 10px ;
+    align-content: center;
+    background-color:#007AFF;
+    width: 20%;
+    height: 75px;
+    text-align: center;
+}
+.my-ex ,.my-ed,.my-kn{
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.my-ex div ,.my-ed div{
+    border-radius: 5px;
+    margin: 10px auto;
+    align-content: center;
+    background-color:#007AFF;
+    width: calc(100%/3);
+    height: 75px;
+    text-align: center;
+}
+.my-kn{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;   
+    gap: 10px;
+    
+}
+.my-kn div{
+    margin: 5px auto;
+    border-radius: 5px;
+    align-content: center;
+    background-color:#007AFF;
+    height: 75px;
+    text-align: center;
+    width: calc(90%/4);
+    flex-grow: 1.1;
+}
+
+.my-kn ,.my-in{
+    color: white;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;   
+    gap: 10px;
+    
+}
+.my-kn div , .my-in div {
+    margin: 5px auto;
+    border-radius: 5px;
+    align-content: center;
+    background-color:#007AFF;
+    height: 75px;
+    text-align: center;
+    width: calc(90%/4);
+}
